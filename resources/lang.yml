@@ -1,0 +1,204 @@
+#  ██████╗ ███████╗███╗   ██╗███████╗██████╗  █████╗ ██╗     
+# ██╔════╝ ██╔════╝████╗  ██║██╔════╝██╔══██╗██╔══██╗██║     
+# ██║  ███╗█████╗  ██╔██╗ ██║█████╗  ██████╔╝███████║██║     
+# ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝  ██╔══██╗██╔══██║██║     
+# ╚██████╔╝███████╗██║ ╚████║███████╗██║  ██║██║  ██║███████╗
+#  ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝                                      
+
+general:
+  ping:
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Pong!'
+    description: ''
+    fields: 
+      clientLatency:
+        name: 'Client Latency'
+        value: '%clientLatency%ms'
+        inline: true
+      apiLatency:
+        name: 'API Latency'
+        value: '%apiLatency%ms'
+        inline: true
+    footer:
+      text: ''
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+#  █████╗ ██████╗ ██████╗ ██╗     ██╗ ██████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗
+# ██╔══██╗██╔══██╗██╔══██╗██║     ██║██╔════╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝
+# ███████║██████╔╝██████╔╝██║     ██║██║     ███████║   ██║   ██║██║   ██║██╔██╗ ██║███████╗
+# ██╔══██║██╔═══╝ ██╔═══╝ ██║     ██║██║     ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║╚════██║
+# ██║  ██║██║     ██║     ███████╗██║╚██████╗██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║███████║
+# ╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+                                                                                          
+
+applications:
+  wrongChannel:
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Incorrect Channel!'
+    description: 'This command can only be executed in %channel%'
+    fields: []
+    footer:
+      text: ''
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  invalidApplication:
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Invalid Application'
+    description: 'When executing this command please choose a valid application type, valid application types are:%n%%n%%types%'
+    fields: []
+    footer:
+      text: ''
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  pendingApplication:
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Cannot start application'
+    description: 'You cannot create a new application as you already have one pending in this category'
+    fields: []
+    footer:
+      text: ''
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+    
+  applicationStarted:
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Application Started'
+    description: 'I have started the application in your DMs!'
+    fields: []
+    footer:
+      text: ''
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  sendQuestion:
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Question #%questionNumber%'
+    description: '%question%'
+    fields: []
+    footer:
+      text: ''
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  applicationFinished:
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Application Finished'
+    description: 'Congratulations! Your application has been submitted to the staff for review! You will recieve a DM once they accept or deny you.'
+    fields: []
+    footer:
+      text: ''
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  newApplication: 
+    author:
+      name: '%author%'
+      icon_url: ''
+      url: ''
+    title: 'Incoming Application!'
+    description: '%number%. %question%%n%-> %answer%'
+    fields: []
+    footer:
+      text: 'Application ID: %id%'
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  applicationAcceptedAdmin: 
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Application Accepted!'
+    description: 'You have successfully accepted %user%''s application!'
+    fields: []
+    footer:
+      text: 'Application ID: %id%'
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  applicationDeniedAdmin: 
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Application Denied!'
+    description: 'You have successfully denied %user%''s application!'
+    fields: []
+    footer:
+      text: 'Application ID: %id%'
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  applicationAccepted: 
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Application Accepted!'
+    description: 'Congratulations! Your application was accepted by %user%'
+    fields: []
+    footer:
+      text: 'Application ID: %id%'
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true
+
+  applicationDenied: 
+    author:
+      name: ''
+      icon_url: ''
+      url: ''
+    title: 'Application Denied!'
+    description: 'Your application was denied by %user% for %reason%'
+    fields: []
+    footer:
+      text: 'Application ID: %id%'
+      icon_url: ''
+    thumbnail: ''
+    image: ''
+    timestamp: true

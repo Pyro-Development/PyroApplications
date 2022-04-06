@@ -1,0 +1,22 @@
+client:
+  clientid: '' # Right click the bot and click "copy id"
+  guildid: [''] # Right click the guild you require the id for and click "copy id"
+  token: '' # Token can be found in https://discord.com/developers
+  debug: false # Only enable this if told to by Lucid Support 
+
+activity:
+  type: 'WATCHING'
+  text: 'Over Lucid'
+
+branding:
+  prefix: 'LUCID'
+  server_name: 'Lucid'
+  server_icon_url: 
+  server_embed_color: 'PURPLE'
+
+database:
+  mysql:
+    host: 'localhost'
+    user: 'root'
+    password: ''
+    database: 'applications'

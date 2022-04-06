@@ -1,0 +1,20 @@
+settings:
+  commandChannel: '955954143367925800'
+
+types:
+  - name: 'Bot Developer'
+    enabled: true
+    channel: '921028701028753480'
+    questions: [
+      'question 1',
+      'random filler question',
+      'random q'
+    ]
+
+  - name: 'Web Developer'
+    enabled: true
+    channel: '955954143367925800'
+    questions: [
+      'q1',
+      'idfk'
+    ]

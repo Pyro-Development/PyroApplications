@@ -1,0 +1,22 @@
+general:
+  ping:
+    enabled: true
+    roles: []
+  botinfo:
+    enabled: true
+    roles: []
+
+  setup:
+    enabled: true
+    roles: []
+
+applications:
+  apply:
+    enabled: true
+    roles: []
+  accept:
+    enabled: true
+    roles: []
+  deny:
+    enabled: true
+    roles: []

@@ -1,0 +1,20 @@
+{
+  "name": "app-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aidan",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "chalk": "^3.0.0",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "mysql": "^2.18.1",
+    "pyroutils": "^1.0.12"
+  }
+}
