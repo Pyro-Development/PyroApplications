@@ -1,4 +1,4 @@
-# Project Lucid
+# Lucid Application Bot
 
 1) run the install.bat
 
