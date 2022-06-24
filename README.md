@@ -1,4 +1,4 @@
-# Lucid Application Bot
+# Pyro Application Bot
 
 1) run the install.bat
 
